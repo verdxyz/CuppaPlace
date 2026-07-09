@@ -1,0 +1,53 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs & runtime
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / caches / temp
+coverage/
+.nyc_output/
+.tmp/
+.temp/
+.cache/
+
+# Build output (kalau ada)
+dist/
+build/
+
+# Env (jangan commit secret)
+.env
+.env.*
+!.env.example
+
+# Uploads/media lokal
+uploads/
+!uploads/.gitkeep
+
+# DB dumps
+*.sql
+*.sql.gz
+*.dump
+dump-*.*
+backup-*.*
+*.tar
+*.zip
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker (opsional)
+docker-data/

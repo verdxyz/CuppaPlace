@@ -1,0 +1,65 @@
+# ---- Node / Package managers ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ---- Next.js (Frontend) ----
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/build/
+
+# Hanya ignore subfolder berat di public (bukan seluruh public)
+frontend/public/logos/**
+!frontend/public/logos/.gitkeep
+frontend/public/img/**
+!frontend/public/img/.gitkeep
+frontend/public/menu/**
+!frontend/public/menu/.gitkeep
+frontend/public/uploads/**
+!frontend/public/uploads/.gitkeep
+
+# ---- Backend build/temp ----
+backend/dist/
+backend/build/
+backend/.cache/
+backend/.tmp/
+backend/.temp/
+
+# ---- Coverage / testing ----
+coverage/
+
+# ---- Env files (jangan commit rahasia) ----
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# ---- Logs ----
+*.log
+
+# ---- Database local (opsional)
+*.sqlite
+*.sqlite-journal
+
+# ---- Caches / tools ----
+.cache/
+.tmp/
+.temp/
+.eslintcache
+.turbo/
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
